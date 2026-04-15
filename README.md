@@ -3,14 +3,16 @@ Estudo
 
 #Mapeamento @ManyToOne OU Mapeamento de Muitos para Um (N:1)
 
-No modelo relacional, uma associação muitos-para-um (N:1) é quando se têm várias tuplas [] de uma tabela 'referenciando' uma tupla [] de uma tabela qualquer.
+No modelo relacional, uma associação muitos-para-um (N:1) é quando se têm várias tuplas [] de uma tabela 
+'referenciando' uma tupla [] de uma tabela qualquer.
+
 <img width="470" height="161" alt="image" src="https://github.com/user-attachments/assets/deb9ab93-4373-4feb-b04a-68360d112759" />
 
 Nesse exemplo acima, lê-se assim:
 Um Funcionário têm um Departamento, mas o Departamento têm muitos Funcionários.
 A tabela Funcionários têm o relacionamento muitos-para-um com a tabela Departamento.
 
-##Em JPA (JakartaPersistence): 
+## Em JPA (JakartaPersistence): 
 exemplo
 
 domínios das entidades - Departamento (tabela = departamento) e Funcionario (tabela = funcionario)
